@@ -45,7 +45,6 @@ class VisitSDJpaServiceTest {
         assertThat(foundVisits).hasSize(1);
     }
 
-    @DisplayName("Test Find By Id")
     @Test
     void findById() {
         Visit visit = new Visit();
